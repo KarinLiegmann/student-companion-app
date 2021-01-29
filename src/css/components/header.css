@@ -1,15 +1,6 @@
-/* header {
-    width: 100%;
-    height: auto;
-    background: var(--clr-blue40);
-    text-align: center;
-    position: relative;  
-} */
-
 header {
     background: var(--clr-blue40);
     width: 100%;
-    padding:1em 0 0 0;
     text-align: center;
   }
   
