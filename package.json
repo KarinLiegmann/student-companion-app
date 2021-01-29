@@ -1,0 +1,24 @@
+{
+  "name": "student-companion-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KarinLiegmann/student-companion-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KarinLiegmann/student-companion-app/issues"
+  },
+  "homepage": "https://github.com/KarinLiegmann/student-companion-app#readme",
+  "dependencies": {
+    "parcel": "^1.12.4"
+  }
+}
