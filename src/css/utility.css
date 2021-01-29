@@ -1,0 +1,15 @@
+.tt-uc {
+    text-transform: uppercase;
+}
+
+
+.bs-g {
+    box-shadow: 0 2 11 var(--clr-blue100);
+    opacity: .2;
+}
+
+.bs-o {
+    box-shadow: 0 4 10 var(--clr-orange100);
+    opacity: .4;
+}
+

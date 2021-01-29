@@ -1,0 +1,36 @@
+:root {
+    --fw-bold: 700;
+    --fw-semibold: 600;
+    --fw-regular: 400;
+
+    --fs-16: 1rem;
+    --fs-14: 0.875rem;
+    --fs-12: 0.75rem;
+
+    --clr-orange100: #FF5A36;
+    --clr-orange80: #FF9C86;
+    --clr-orange60: #FFBDAF;
+    --clr-orange40: #FFDED7;
+    
+    --clr-blue100: #193251;
+    --clr-blue80: #7589A2;
+    --clr-blue60: #E0E4E8;
+    --clr-blue40: #F8F8F8;
+
+ 
+    --ff-sans: "Open Sans";
+
+}
+
+*,
+*:after,
+*:before {
+    border-spacing: border-box;
+}
+
+body {
+    margin: 0;
+   
+}
+
+
