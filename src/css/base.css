@@ -30,9 +30,53 @@
 
 body {
     margin: 0;
+    font-family: var(--ff-sans);
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto 1fr auto;
+}
+
+ul, ol , li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+h1 {
+    color: var(--clr-blue100);
+    font-size: var(--fs-16);   
+    font-weight: var(--fw-bold);
+    text-transform: uppercase;
+}
+
+h2 {
+    color: var(--clr-blue100);
+    font-size: var(--fs-14);
+    font-weight: var(--fw-semibold);
+}
+
+h3 {
+    color: var(--clr-blue80);
+    font-size: var(--fs-12);
+    font-weight: var(--fw-regular);
+}
+
+.name {
+    color: var(--clr-blue80);
+    font-size: var(--fs-16);
+    font-weight: var(--fw-semibold);
+}
+
+.copy {
+    color: var(--clr-blue100);
+    font-size: var(--fs-14);
+    font-weight: var(--fw-regular);
+}
+
+.quote {
+    color: var(--clr-blue100);
+    font-size: var(--fs-16);
+    font-weight: var(--fw-semibold);
 }
 
 
