@@ -1,4 +1,5 @@
 .energylevel__button {
+    margin-top: 7rem;
     display: flex;
     justify-content: flex-end;
 }
@@ -21,6 +22,9 @@
     color: var(--clr-orange100);  
 }
 
+.levelrate {
+    margin-top: 1rem;
+}
 
 .levelrate__button button {
     width: 100%;

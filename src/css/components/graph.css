@@ -1,12 +1,8 @@
-.energylevel__graph {
-    position: relative;
-}
-
 #q-graph {
+  position: relative;
     display: block; /* fixes layout wonkiness in FF1.5 */
-    position: relative; 
-    width: 315px; 
-    height: 200px;
+    width: 274px; 
+    height: 12.5rem;
     padding: 0;
     background: transparent;
     font-size: 11px;
@@ -14,10 +10,10 @@
   
   #q-graph tr, #q-graph th, #q-graph td { 
     position: absolute;
-    bottom: 0; 
+    bottom: 1.25rem; 
     width: 50px; 
     z-index: 2;
-    margin: 0; 
+    margin: 0 0 0 0.75rem; 
     padding: 0;
     text-align: center;
   }
@@ -29,11 +25,11 @@
     color: #AAA;
   }
   #q-graph #q1 {left: 0px;}
-  #q-graph #q2 {left: 60px;}
-  #q-graph #q3 {left: 120px;}
-  #q-graph #q4 {left: 180px;}
-  #q-graph #q5 {left: 240px;}
-  #q-graph tbody th {bottom: -1.75em; vertical-align: top;
+  #q-graph #q2 {left: 55px;}
+  #q-graph #q3 {left: 110px;}
+  #q-graph #q4 {left: 165px;}
+  #q-graph #q5 {left: 220px;}
+  #q-graph tbody th {bottom: -0.5rem; vertical-align: top;
   font-weight: normal; color: #333;}
   #q-graph .bar {
     width: 12px;
@@ -60,20 +56,20 @@
   
   
   #ticks {
-    position: relative; 
-    top: -163px;
-    left: -10px;
-    width: 315px; 
+    top: -12.5rem;
+    left: 1.25rem;
+    width: 274px; 
     height: 200px; 
     z-index: 1;
     margin-bottom: -315px;
     font-size: 10px;
+    position: relative;
   }
   
   #ticks .tick {
     position: relative; 
     border-bottom: 1px solid #C4C4C4; 
-    width: 315px;
+    width: 274px;
   }
   
   #ticks .tick:first-child {
@@ -82,7 +78,7 @@
   
   #ticks .tick p {
     position: absolute; 
-    left: -5em; 
+    left: -2.5em; 
     top: -0.8em; 
     margin: 0 0 0 0.5em;
   }
