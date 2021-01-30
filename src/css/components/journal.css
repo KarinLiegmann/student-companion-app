@@ -48,5 +48,6 @@
     border-radius: 5px;
     box-shadow: 0 4px 10px var(--bs-orange);
     border: none;
+    text-decoration: none;
 
 }
