@@ -1,0 +1,88 @@
+.energylevel__graph {
+    position: relative;
+}
+
+#q-graph {
+    display: block; /* fixes layout wonkiness in FF1.5 */
+    position: relative; 
+    width: 315px; 
+    height: 200px;
+    padding: 0;
+    background: transparent;
+    font-size: 11px;
+  }
+  
+  #q-graph tr, #q-graph th, #q-graph td { 
+    position: absolute;
+    bottom: 0; 
+    width: 50px; 
+    z-index: 2;
+    margin: 0; 
+    padding: 0;
+    text-align: center;
+  }
+  
+  #q-graph tr {
+    height: 196px;
+    padding-top: 2px;
+    border-right: 0px solid #C4C4C4; 
+    color: #AAA;
+  }
+  #q-graph #q1 {left: 0px;}
+  #q-graph #q2 {left: 60px;}
+  #q-graph #q3 {left: 120px;}
+  #q-graph #q4 {left: 180px;}
+  #q-graph #q5 {left: 240px;}
+  #q-graph tbody th {bottom: -1.75em; vertical-align: top;
+  font-weight: normal; color: #333;}
+  #q-graph .bar {
+    width: 12px;
+    border-bottom: none; 
+    color: #000;
+  }
+  #q-graph .bar p {
+    margin: 5px 0 0; 
+    padding: 0;
+    opacity: .4;
+  }
+  #q-graph .sent {
+    left: 13px; 
+    background-color: #FF5A36;
+    border-color: transparent;
+    border-radius: 10px 10px 0 0;
+  }
+  #q-graph .paid {
+    left: 26px;
+    background-color: #193251;
+    border-color: transparent;
+    border-radius: 10px 10px 0 0;
+  }
+  
+  
+  #ticks {
+    position: relative; 
+    top: -163px;
+    left: -10px;
+    width: 315px; 
+    height: 200px; 
+    z-index: 1;
+    margin-bottom: -315px;
+    font-size: 10px;
+  }
+  
+  #ticks .tick {
+    position: relative; 
+    border-bottom: 1px solid #C4C4C4; 
+    width: 315px;
+  }
+  
+  #ticks .tick:first-child {
+    border-top: 1px solid #C4C4C4; 
+  }
+  
+  #ticks .tick p {
+    position: absolute; 
+    left: -5em; 
+    top: -0.8em; 
+    margin: 0 0 0 0.5em;
+  }

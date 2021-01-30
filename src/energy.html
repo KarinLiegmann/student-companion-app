@@ -22,8 +22,42 @@
     <main class="wrap">
         <section class="energylevel">
             <h2 class="energylevel__headline">Energy Level throughout the day</h2>
-            <article>
-
+            <article class="energylevel__graph">
+                <table id="q-graph">
+                    <tr class="qtr" id="q1">
+                        <th scope="row">10:00</th>
+                        <td class="sent bar" style="height: 111px;"></td>
+                        <td class="paid bar" style="height: 99px;"></td>
+                    </tr>
+                    <tr class="qtr" id="q2">
+                        <th scope="row">15:30</th>
+                        <td class="sent bar" style="height: 158px;"></td>
+                        <td class="paid bar" style="height: 145px;"></td>
+                    </tr>
+                    <tr class="qtr" id="q3">
+                        <th scope="row">16:15</th>
+                        <td class="sent bar" style="height: 168px;"></td>
+                        <td class="paid bar" style="height: 93px;"></td>
+                    </tr>
+                    <tr class="qtr" id="q4">
+                        <th scope="row">18:25</th>
+                        <td class="sent bar" style="height: 110px;"></td>
+                        <td class="paid bar" style="height: 156px;"></td>
+                    </tr>
+                      
+                    <tr class="qtr" id="q5">
+                        <th scope="row">19:00</th>
+                        <td class="sent bar" style="height: 87px;"></td>
+                        <td class="paid bar" style="height: 36px;"></td>
+                    </tr>
+                </table>
+                    
+                <div id="ticks">
+                    <div class="tick" style="height: 40px;"><p>100</p></div>
+                    <div class="tick" style="height: 40px;"><p>75</p></div>
+                    <div class="tick" style="height: 40px;"><p>50</p></div>
+                    <div class="tick" style="height: 40px;"><p>25</p></div>
+                </div>
             </article>
             <article class="energylevel__button">
                 <button>Other Students</button>
