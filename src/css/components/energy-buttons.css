@@ -2,20 +2,22 @@
     padding: 1rem 3rem;
 } */
 
-.energylevel__button {
-    display: flex;
-    flex-direction: flex-end;
+.energylevel__button button {
+    border-radius: 3px;
+    font-weight: var(--fw-semibold); 
+    font-size: var(--fs-12);
 }
 
 .energylevel__button button:nth-child(1) {
     background: var(--clr-blue100);
     color: #fff;
-    margin-right: .5rem;    
+    margin-right: .1rem;  
+     
 }
 
 .energylevel__button button:nth-child(2) {
     background: var(--clr-orange40);
-    color: var(--clr-orange100);    
+    color: var(--clr-orange100);  
 }
 
 .levelrate__form {
