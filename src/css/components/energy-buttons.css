@@ -1,0 +1,49 @@
+ /* .levelrate__form button {
+    padding: 1rem 3rem;
+} */
+
+.energylevel__button {
+    display: flex;
+    flex-direction: flex-end;
+}
+
+.energylevel__button button:nth-child(1) {
+    background: var(--clr-blue100);
+    color: #fff;
+    margin-right: .5rem;    
+}
+
+.energylevel__button button:nth-child(2) {
+    background: var(--clr-orange40);
+    color: var(--clr-orange100);    
+}
+
+.levelrate__form {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.levelrate__form button {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.levelrate__form button:nth-child(1) {
+    background: var(--clr-orange100);
+    color: #fff;
+}
+
+.levelrate__form button:nth-child(2) {
+    background: var(--clr-orange80);
+    color: #fff;    
+}
+
+.levelrate__form button:nth-child(3) {
+    background: var(--clr-orange60);    
+}
+
+.levelrate__form button:nth-child(4) {
+    background: var(--clr-orange40);
+}
+
