@@ -33,8 +33,14 @@
   #q-graph #q3 {left: 38%;}
   #q-graph #q4 {left: 57%;}
   #q-graph #q5 {left: 76%;}
-  #q-graph tbody th {bottom: -0.5rem; vertical-align: top;
-  font-weight: normal; color: #333;}
+  #q-graph tbody th {
+    bottom: -0.5rem; 
+    vertical-align: top;
+    font-weight: normal; 
+    color: #333;
+    left: 26%;
+    margin-left: 3.25vw;
+  }
   #q-graph .bar {
     width: 26%;
     border-bottom: none; 
