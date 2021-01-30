@@ -1,0 +1,49 @@
+.energylevel__button {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.energylevel__button button {
+    border-radius: 3px;
+    font-weight: var(--fw-semibold); 
+    font-size: var(--fs-12);
+}
+
+.energylevel__button button:nth-child(1) {
+    background: var(--clr-blue100);
+    color: #fff;
+    margin-right: .1rem;   
+}
+
+.energylevel__button button:nth-child(2) {
+    background: var(--clr-orange40);
+    color: var(--clr-orange100);  
+}
+
+
+.levelrate__button button {
+    width: 100%;
+    margin: .3rem auto; 
+    text-align: center;
+    padding: .5rem 0;
+}
+
+.levelrate__button button:nth-child(1) {
+    background: var(--clr-orange100);
+    color: #fff;
+}
+
+.levelrate__button button:nth-child(2) {
+    background: var(--clr-orange80);
+    color: #fff;    
+}
+
+.levelrate__button button:nth-child(3) {
+    background: var(--clr-orange60);    
+}
+
+.levelrate__button button:nth-child(4) {
+    background: var(--clr-orange40);
+}
+

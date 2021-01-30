@@ -1,0 +1,6 @@
+button {
+    font-weight: var(--fw-bold);
+    font-size: var(--fs-16);
+    border-style: none;
+    border-radius: 5px;    
+}
