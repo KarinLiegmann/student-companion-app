@@ -1,0 +1,48 @@
+.jsheet {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 1.875rem;
+    margin-right: 1.875rem;
+
+}
+
+.jsheet__mottobox {
+    border-radius: 4px;
+    border: 1px solid #E0E4E8;
+    width: 19.688rem;
+    height: 3.875rem;
+}
+
+.jsheet__notebox {
+    border-radius: 4px;
+    border: 1px solid #E0E4E8;
+    width: 19.688rem;
+    height: 7.75rem;
+}
+
+.jsheet__buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.jsheet__cancel {
+    background-color: var(--clr-blue40);
+    color: var(--clr-blue100);
+    width: 9.5rem;
+    height: 3rem;
+    font-size: var(--fs-16);
+    border-radius: 5px;
+}
+
+
+.jsheet__save {
+    background-color: var(--clr-orange100);
+    color: var(--clr-blue40);
+    width: 9.5rem;
+    height: 3rem;
+    font-size: var(--fs-16);
+    border-radius: 5px;
+}
