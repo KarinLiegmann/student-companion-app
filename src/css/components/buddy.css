@@ -2,8 +2,8 @@
     margin-bottom: 1.2rem;
 }
 
-
 .buddy__content {
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-content: center;

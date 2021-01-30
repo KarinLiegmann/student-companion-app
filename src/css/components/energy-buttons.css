@@ -24,6 +24,7 @@
 
 .levelrate {
     margin-top: 1rem;
+    width: 100%;
 }
 
 .levelrate__button button {
