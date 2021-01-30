@@ -1,0 +1,52 @@
+.journal {
+    margin-left: 1.875rem;
+    margin-right: 1.875rem;
+    margin-bottom: 1.25rem;
+    padding: 1.25rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    box-shadow: 0 2px 11px 0 #193251;
+    border-radius: 6px;
+    border: none;
+}
+
+
+.journal__starcontainer {
+    display: flex;
+    flex-direction: row;
+    width: 12.813rem;
+    justify-content: space-between;
+}
+
+.journal__rectanglecontainer {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.journal__buttoncontainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 1.25rem;
+    margin-top: 1.9rem;
+}
+
+
+.journal__button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 12.5rem;
+    height: 3rem;
+    background-color: var(--clr-orange100);
+    font-size: var(--fs-16);
+    color: var( --clr-blue40);
+    border-radius: 5px;
+    box-shadow: 0 4px 10px 0 #FF5A36;
+    border: none;
+
+}
