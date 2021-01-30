@@ -1,7 +1,11 @@
+.energylevel__graph {
+  width: 100%;
+}
+
 #q-graph {
   position: relative;
     display: block; /* fixes layout wonkiness in FF1.5 */
-    width: 274px; 
+    width: 100%; 
     height: 12.5rem;
     padding: 0;
     background: transparent;
@@ -11,7 +15,7 @@
   #q-graph tr, #q-graph th, #q-graph td { 
     position: absolute;
     bottom: 1.25rem; 
-    width: 50px; 
+    width: 16%; 
     z-index: 2;
     margin: 0 0 0 0.75rem; 
     padding: 0;
@@ -25,14 +29,20 @@
     color: #AAA;
   }
   #q-graph #q1 {left: 0px;}
-  #q-graph #q2 {left: 55px;}
-  #q-graph #q3 {left: 110px;}
-  #q-graph #q4 {left: 165px;}
-  #q-graph #q5 {left: 220px;}
-  #q-graph tbody th {bottom: -0.5rem; vertical-align: top;
-  font-weight: normal; color: #333;}
+  #q-graph #q2 {left: 19%;}
+  #q-graph #q3 {left: 38%;}
+  #q-graph #q4 {left: 57%;}
+  #q-graph #q5 {left: 76%;}
+  #q-graph tbody th {
+    bottom: -0.5rem; 
+    vertical-align: top;
+    font-weight: normal; 
+    color: #333;
+    left: 26%;
+    margin-left: 3.25vw;
+  }
   #q-graph .bar {
-    width: 12px;
+    width: 26%;
     border-bottom: none; 
     color: #000;
   }
@@ -42,13 +52,13 @@
     opacity: .4;
   }
   #q-graph .sent {
-    left: 13px; 
+    left: 26%; 
     background-color: #FF5A36;
     border-color: transparent;
     border-radius: 10px 10px 0 0;
   }
   #q-graph .paid {
-    left: 26px;
+    left: 52%;
     background-color: #193251;
     border-color: transparent;
     border-radius: 10px 10px 0 0;
@@ -57,8 +67,8 @@
   
   #ticks {
     top: -12.5rem;
-    left: 1.25rem;
-    width: 274px; 
+    left: 0;
+    width: 100%; 
     height: 200px; 
     z-index: 1;
     margin-bottom: -315px;
@@ -67,18 +77,31 @@
   }
   
   #ticks .tick {
-    position: relative; 
+    position: relative;
     border-bottom: 1px solid #C4C4C4; 
-    width: 274px;
+    width: 100%;
+    left: 1.5rem;
+    margin-left: 0.5rem;
   }
   
   #ticks .tick:first-child {
     border-top: 1px solid #C4C4C4; 
   }
   
-  #ticks .tick p {
-    position: absolute; 
-    left: -2.5em; 
-    top: -0.8em; 
-    margin: 0 0 0 0.5em;
+  #ticks p {
+    margin: 0;
+    position: absolute;
+    top: -0.35rem;
+    left: -2rem;
+  }
+
+  .blend-box {
+    position: absolute;
+    height: 100%;
+    width: 8%;
+    background: #fff;
+    right: 0;
+    left: 92%;
+    z-index: 3;
+
   }
