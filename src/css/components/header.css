@@ -1,0 +1,11 @@
+header {
+    background: var(--clr-blue40);
+    width: 100%;
+    text-align: center;
+  }
+  
+  svg {
+    margin-bottom:-5px;
+  }
+
+
