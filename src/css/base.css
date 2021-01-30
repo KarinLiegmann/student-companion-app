@@ -17,7 +17,9 @@
     --clr-blue60: #E0E4E8;
     --clr-blue40: #F8F8F8;
 
- 
+    --bs-blue: rgba(25,50,81,0.2);
+    --bs-orange: rgba(255,90,54,0.4);
+
     --ff-sans: "Open Sans";
 
 }

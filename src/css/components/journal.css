@@ -6,7 +6,7 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    box-shadow: 0 2px 11px 0 #193251;
+    box-shadow: 0 2px 11px 0 var(--bs-blue);
     border-radius: 6px;
     border: none;
 }
@@ -46,7 +46,7 @@
     font-size: var(--fs-16);
     color: var( --clr-blue40);
     border-radius: 5px;
-    box-shadow: 0 4px 10px 0 #FF5A36;
+    box-shadow: 0 4px 10px var(--bs-orange);
     border: none;
 
 }
