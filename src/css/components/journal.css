@@ -1,7 +1,8 @@
 .journal {
-    margin-left: 1.875rem;
-    margin-right: 1.875rem;
-    margin-bottom: 1.25rem;
+    width: 100%;    
+}
+
+.journal__entry {
     padding: 1.25rem;
     display: flex;
     flex-direction: column;
@@ -11,12 +12,15 @@
     border: none;
 }
 
-
 .journal__starcontainer {
     display: flex;
     flex-direction: row;
-    width: 12.813rem;
-    justify-content: space-between;
+    justify-content: flex-start;
+    margin-bottom: 1.5rem;
+}
+
+.journal__starcontainer svg {
+    margin-right: 1rem;
 }
 
 .journal__rectanglecontainer {
@@ -24,6 +28,7 @@
     flex-direction: row;
     width: 100%;
     justify-content: space-between;
+    margin-bottom: 1.5rem;
 }
 
 .journal__buttoncontainer {

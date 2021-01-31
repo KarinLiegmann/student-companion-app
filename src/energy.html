@@ -11,7 +11,10 @@
 <body>
 
     <header>
-        <h1>ENERGY</h1>
+        <div class="header">
+            <h1>ENERGY</h1>
+        </div>
+
 
         <svg viewBox="0 0 500 60" preserveAspectRatio="none">
             <path d="m 0 30 c 283 35 140 -60 500 6 v 60 l -500 0" style="stroke:none; fill:#fff;">
@@ -21,7 +24,7 @@
 
     <main class="wrap">
         <section class="energylevel__graph">
-            <h2 class="energylevel__headline">Energy Level throughout the day</h2>
+            <h2>Energy Level throughout the day</h2>
             <article>
                 <table id="q-graph">
                     <tr class="qtr" id="q1">
@@ -44,19 +47,27 @@
                         <td class="sent bar" style="height: 110px;"></td>
                         <td class="paid bar" style="height: 156px;"></td>
                     </tr>
-                      
+
                     <tr class="qtr" id="q5">
                         <th scope="row">19:00</th>
                         <td class="sent bar" style="height: 87px;"></td>
                         <td class="paid bar" style="height: 36px;"></td>
                     </tr>
                 </table>
-                    
+
                 <div id="ticks">
-                    <div class="tick" style="height: 40px;"><p>100</p></div>
-                    <div class="tick" style="height: 40px;"><p>75</p></div>
-                    <div class="tick" style="height: 40px;"><p>50</p></div>
-                    <div class="tick" style="height: 40px;"><p>25</p></div>
+                    <div class="tick" style="height: 40px;">
+                        <p>100</p>
+                    </div>
+                    <div class="tick" style="height: 40px;">
+                        <p>75</p>
+                    </div>
+                    <div class="tick" style="height: 40px;">
+                        <p>50</p>
+                    </div>
+                    <div class="tick" style="height: 40px;">
+                        <p>25</p>
+                    </div>
                 </div>
             </article>
             <article class="energylevel__button">
@@ -65,14 +76,14 @@
             </article>
         </section>
         <section class="levelrate">
-            <h2 class="levelrate__headline">Rate your current energy level:</h2>
+            <h2>Rate your current energy level:</h2>
             <article class="levelrate__button">
                 <button>100%</button>
                 <button>75%</button>
                 <button>50%</button>
                 <button>25%</button>
             </article>
-        
+
         </section>
         <div class="blend-box"></div>
     </main>
