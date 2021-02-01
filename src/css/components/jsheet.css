@@ -18,6 +18,7 @@
     border: 1px solid #E0E4E8;
     width: 19.688rem;
     height: 7.75rem;
+    margin-bottom: 1.875rem;
 }
 
 .jsheet__buttons {
@@ -43,4 +44,12 @@
     height: 3rem;
     font-size: var(--fs-16);
     border-radius: 5px;
+}
+
+
+.jsheet__starcontainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 314px;
 }
