@@ -1,5 +1,6 @@
 header {
     background: var(--clr-blue40);
+    padding-top: 1rem;
     width: 100%;
     text-align: center;
     z-index: 4;

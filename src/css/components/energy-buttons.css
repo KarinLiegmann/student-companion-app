@@ -31,7 +31,7 @@
     width: 100%;
     margin: .3rem auto; 
     text-align: center;
-    padding: .5rem 0;
+    padding: 1rem;
 }
 
 .levelrate__button button:nth-child(1) {
