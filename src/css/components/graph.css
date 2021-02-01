@@ -2,6 +2,10 @@
   width: 100%;
 }
 
+.energylevel__headline {
+  margin-bottom: 1rem;
+}
+
 #q-graph {
   position: relative;
     display: block; /* fixes layout wonkiness in FF1.5 */
@@ -55,13 +59,13 @@
     left: 26%; 
     background-color: #FF5A36;
     border-color: transparent;
-    border-radius: 10px 10px 0 0;
+    border-radius: 100px 100px 0 0;
   }
   #q-graph .paid {
     left: 52%;
     background-color: #193251;
     border-color: transparent;
-    border-radius: 10px 10px 0 0;
+    border-radius: 100px 100px 0 0;
   }
   
   
