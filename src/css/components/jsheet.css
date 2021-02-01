@@ -48,6 +48,10 @@
     border-radius: 5px;
 }
 
-.jsheet__star {
-    
+
+.jsheet__starcontainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 314px;
 }
