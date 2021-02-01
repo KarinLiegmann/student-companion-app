@@ -72,9 +72,6 @@ h1, h2, h3, p {
   
 }
 
-.header {
-    margin-top: 1rem;
-}
 
 h1 {
     color: var(--clr-blue100);
