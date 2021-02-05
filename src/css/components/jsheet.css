@@ -55,3 +55,15 @@
     margin-top: .5rem;
     margin-bottom: 1.2rem;
 }
+
+.star {
+    width: 100%;
+}
+
+.stars {
+    fill: #F8F8F8;
+}
+
+.clicked {
+    fill: var(--clr-blue100);
+}
