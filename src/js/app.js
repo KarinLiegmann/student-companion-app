@@ -1,0 +1,1 @@
+const people = ['Andre T', 'André W.', 'Anita', 'Calvin', 'Daniel', 'Emanuel', 'Karin', 'Lea', 'Maize', 'Mali', 'Nicole', 'Philipp', 'Simon', 'Sophie', 'Stefan', 'Verena'];
