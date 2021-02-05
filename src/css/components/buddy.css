@@ -23,7 +23,7 @@
     border-top: 1px solid var(--clr-blue60);
 }
 
-.buddy__content img {
+.buddy__content svg {
     position: absolute;
     align-self: center;
 }
