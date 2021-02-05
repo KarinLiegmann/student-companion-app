@@ -2,7 +2,6 @@
   "name": "student-companion-app",
   "version": "1.0.0",
   "description": "companion-student-app",
-  "main": "index.js",
   "scripts": {
     "start": "parcel src/index.html",
     "build": "parcel build src/index.html",
@@ -19,6 +18,6 @@
   },
   "homepage": "https://github.com/KarinLiegmann/student-companion-app#readme",
   "dependencies": {
-    "parcel": "^1.12.4"
+    "parcel-bundler": "^1.12.4"
   }
 }
