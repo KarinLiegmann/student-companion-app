@@ -64,6 +64,14 @@
     fill: #F8F8F8;
 }
 
+.rectangle {
+    width: 100%;
+}
+
+.rectangles {
+    fill: #F8F8F8;
+}
+
 .clicked {
     fill: var(--clr-blue100);
 }
