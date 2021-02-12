@@ -39,9 +39,10 @@ function renderPosts(post, index) {
     /* ` */
 
     function createStars(starsCount) {
+        let stars = ''
         for (let i = 0; i < starsCount; i++) {
-            const starDivs = createElement('div')
-            starDivs.innerHTML = `< svg width = "25px" height = "24px" viewBox = "0 0 25 24" version = "1.1" xmlns = "http://www.w3.org/2000/svg"
+            
+            stars += `<svg width = "25px" height = "24px" viewBox = "0 0 25 24" version = "1.1" xmlns = "http://www.w3.org/2000/svg"
                     xmlns: xlink = "http://www.w3.org/1999/xlink" >
                             <title>Star@2x</title>
                             <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -53,10 +54,10 @@ function renderPosts(post, index) {
                             </g>
                         </svg >`
 
-            return starDivs
+            
         }
-
-
+        return stars
+        
     }
 
 
