@@ -1,10 +1,10 @@
-const container = document.querySelector('.jsheet__starcontainer');
+const starContainer = document.querySelector('.jsheet__starcontainer');
 
 
 for (let i = 0; i < 5; i++) {
 
   const star = document.createElement('div')
-  container.appendChild(star)
+  starContainer.appendChild(star)
   star.classList.add('star')
   star.innerHTML = `
 

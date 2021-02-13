@@ -1,10 +1,10 @@
-const container = document.querySelector('.journal__rectanglecontainer');
+const rectangleContainer = document.querySelector('.journal__rectanglecontainer');
 
 
 for (let i = 0; i < 10; i++) {
 
     const rectangle = document.createElement('div')
-    container.appendChild(rectangle)
+    rectangleContainer.appendChild(rectangle)
     rectangle.classList.add('rectangle')
     rectangle.innerHTML =
         `<svg class="rectangles" width="22px" height="22px" viewBox="0 0 22 22" version="1.1" xmlns="http://www.w3.org/2000/svg"
