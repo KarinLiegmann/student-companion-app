@@ -2,6 +2,9 @@ const rectangleContainer = document.querySelector('.journal__rectanglecontainer'
 
 const starContainer = document.querySelector('.jsheet__starcontainer');
 
+let journalEntries = loadFromLocal("journalentry") || []
+console.log(journalEntries)
+
 
 for (let i = 0; i < 10; i++) {
 
@@ -27,6 +30,7 @@ for (let i = 0; i < 10; i++) {
 
 }
 
+
 function selectRectangles(myLength) {
 
     const rectangles = document.querySelectorAll('.rectangles')
@@ -39,7 +43,6 @@ function selectRectangles(myLength) {
         rectangles[i].classList.add('clicked')
     }
 }
-
 
 for (let i = 0; i < 5; i++) {
 
@@ -67,6 +70,7 @@ for (let i = 0; i < 5; i++) {
 
 }
 
+
 function selectStars(myLength) {
 
     const stars = document.querySelectorAll('.stars')
@@ -81,6 +85,14 @@ function selectStars(myLength) {
 }
 
 
+selectStars(journalEntries.rating)
+selectRectangles(journalEntries.comprehension)
+const motto = document.querySelector('.jsheet__mottobox')
+const notes = document.querySelector('.jsheet__notebox')
+
+motto.value = journalEntries.motto
+notes.value = journalEntries.notes
+
 const saveButton = document.querySelector('.jsheet__save')
 
 saveButton.addEventListener('click', () => {
@@ -92,5 +104,16 @@ saveButton.addEventListener('click', () => {
     let newEntry = { rating: rating, comprehension: comprehension, motto: motto, notes: notes }
 
     localStorage.setItem("journalentry", JSON.stringify(newEntry))
-    localStorage.getItem(JSON.parse("journalentry"))
+
 })
+
+
+
+
+function loadFromLocal(key) {
+    try {
+        return JSON.parse(localStorage.getItem(key));
+    } catch (error) {
+        console.error(error);
+    }
+}

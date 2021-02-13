@@ -11,15 +11,13 @@ fetch('https://muc-2020-w1-student-api.vercel.app/api/buddies')
     .catch(error => console.error(error.message))
 
 
-
-
 function renderPerson(person, index) {
-        const buddy = createElement('section', 'buddy');
-        buddyContainer.appendChild(buddy)
-        const buddyDiv = createElement('div')
-        buddyDiv.classList.add('buddy__content')
-        buddy.appendChild(buddyDiv)
-        buddyDiv.innerHTML += `
+    const buddy = createElement('section', 'buddy');
+    buddyContainer.appendChild(buddy)
+    const buddyDiv = createElement('div')
+    buddyDiv.classList.add('buddy__content')
+    buddy.appendChild(buddyDiv)
+    buddyDiv.innerHTML += `
                 <svg width="21px" height="21px" viewBox="0 0 21 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <title>Plus</title>
     <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -29,14 +27,14 @@ function renderPerson(person, index) {
     </g>
 </svg>`
 
-            person.forEach((pers) => {
-                const buddyP = document.createElement('p')
-                buddyP.classList.add('name')
-                buddyDiv.prepend(buddyP)
-                buddyP.innerText = pers
-            })
-          
-    }
+    person.forEach((pers) => {
+        const buddyP = document.createElement('p')
+        buddyP.classList.add('name')
+        buddyDiv.prepend(buddyP)
+        buddyP.innerText = pers
+    })
+
+}
 
 function createElement(type, classe) {
     const element = document.createElement(type);
