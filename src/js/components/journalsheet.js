@@ -105,9 +105,9 @@ saveButton.addEventListener('click', () => {
 
     localStorage.setItem("journalentry", JSON.stringify(newEntry))
 
+    postToAPI('https://muc-2020-w1-student-api.vercel.app/api/journals', newEntry)
+
 })
-
-
 
 
 function loadFromLocal(key) {
@@ -116,4 +116,13 @@ function loadFromLocal(key) {
     } catch (error) {
         console.error(error);
     }
+}
+
+function postToAPI(url, journalEntry) {
+    return fetch(url, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(journalEntry)
+    })
+        .then(result => result.json())
 }
