@@ -1,14 +1,12 @@
 const container = document.querySelector('.jsheet__starcontainer');
 
-const stars = [1, 2, 3, 4, 5];
-               
-stars.forEach((star, index) => {
-  
-  const div = document.createElement('div');
-  container.appendChild(div);
-  div.classList.add('star');
 
-  div.innerHTML = `
+for (let i = 0; i < 5; i++) {
+
+  const star = document.createElement('div')
+  container.appendChild(star)
+  star.classList.add('star')
+  star.innerHTML = `
 
   <svg class="stars" width="25px" height="24px" viewBox="0 0 25 24" version="1.1" xmlns="http://www.w3.org/2000/svg"
                     xmlns:xlink="http://www.w3.org/1999/xlink" transform=scale(1.43)>
@@ -22,24 +20,22 @@ stars.forEach((star, index) => {
                     </g>
                 </svg>
   `
-  
-  div.addEventListener('click', () => {
-    
-    let newArray = stars.slice(0, stars[index])
-    starSelect(newArray)
-       
-  }) 
-}) 
 
-function starSelect(newArray) {
-  const stars = document.querySelectorAll('.stars')
-  
-  stars.forEach((star) => {
-    star.classList.remove('clicked')
+  star.addEventListener('click', () => {
+    selectStars(i)
   })
-  
-  newArray.forEach((_, i) => {
-    stars[i].classList.add('clicked')
-  })
+
 }
 
+function selectStars(myLength) {
+
+  const stars = document.querySelectorAll('.stars')
+
+  for (let i = 0; i < stars.length; i++) {
+    stars[i].classList.remove('clicked')
+  }
+
+  for (let i = 0; i <= myLength; i++) {
+    stars[i].classList.add('clicked')
+  }
+}
